@@ -5,9 +5,10 @@
   --accent-text-color: #2196f3;
   --primery-footer-text-color: rgba(255, 255, 255, 0.6);
 }
-.text-dec {
+a {
   text-decoration: none;
 }
+
 .list-style {
   list-style-type: none;
 }
