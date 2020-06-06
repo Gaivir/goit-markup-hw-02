@@ -2,7 +2,7 @@
   --primery-text-color: #757575;
   --secondary-text-color: #212121;
   --third-text-color: #ffffff;
-  --axept-text-color: #2196f3;
+  --accent-text-color: #2196f3;
   --primery-footer-text-color: rgba(255, 255, 255, 0.6);
 }
 .text-dec {
@@ -17,13 +17,14 @@
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.7;
+  text-align: center;
   letter-spacing: 0.03em;
 }
 body {
   font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
 }
-
 
 /* header */
 /* nav-header */
@@ -32,23 +33,20 @@ body {
 .logo {
   color: var(--secondary-text-color);
   font-family: "Raleway", sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
-  letter-spacing: 0.03em;
+  line-height: 1.2;
 }
 
 .logo .title {
-  color: var(--axept-text-color);
+  color: var(--accent-text-color);
 }
 
 /* nav-inner */
 .nav-inner {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 .nav-inner .header-link {
@@ -56,114 +54,96 @@ body {
 }
 .nav-inner .header-link:hover,
 .nav-inner .header-link:focus {
-  color: var(--axept-text-color);
+  color: var(--accent-text-color);
 }
 
 /* conntacs */
 .contact-link {
   color: var(--primery-text-color);
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 .contact-link:hover,
 .contact-link:focus {
-  color: var(--axept-text-color);
+  color: var(--accent-text-color);
 }
 
-/* general section */
-.general-section {
-  background-image: url(../images/background.jpg);
+/* hero section */
+.hero-section {
+  background-color: tomato;
 }
-.primery-title {
+.hero-title {
   color: var(--third-text-color);
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   text-align: center;
-  line-height: 60px;
+  line-height: 1.4;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 
 /* advantages section */
 .second-section {
-  
 }
- .advantages-title {
+.advantages-title {
   color: var(--secondary-text-color);
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
+  line-height: 1, 14;
   text-transform: uppercase;
 }
 
 .advantages-text {
   color: var(--primery-text-color);
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
+  line-height: 1.7;
 }
 
 /* works section */
 .works-section {
-  
 }
 
 .works-title {
   background-color: var(--primery-text-color);
   color: var(--third-text-color);
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
+  line-height: 1.14;
   text-transform: uppercase;
 }
 
 /* team section */
 .team-section {
- 
 }
 .team-title {
   color: var(--secondary-text-color);
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
-  letter-spacing: 0.03em;
+  line-height: 1.2;
 }
 
 .team-text {
   color: var(--primery-text-color);
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
-  letter-spacing: 0.03em;
+  line-height: 1.2;
 }
 
 /* filter-nav*/
 
 .filters {
- 
 }
 
 .link-filter {
   color: black;
   background-color: #f5f4fa;
   border: 0px;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
-  letter-spacing: 0.03em;
+  line-height: 1.6;
 }
 
 .link-filter:hover,
@@ -175,32 +155,26 @@ body {
 /* portfolio */
 
 .portfolio-page {
-  
 }
 .portfolio-title {
   color: var(--secondary-text-color);
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   letter-spacing: 0.06em;
 }
 .filtr-title {
   color: var(--primery-text-color);
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
-  letter-spacing: 0.03em;
+  line-height: 1.9;
 }
 
 .portfolio-text {
   color: var(--third-text-color);
-  font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 28px;
-  letter-spacing: 0.03em;
+  line-height: 1.55;
 }
 
 /* footer */
@@ -211,52 +185,44 @@ body {
 /*footer-logo */
 .footer-logo {
   color: var(--third-text-color);
-  font-family: Raleway;
-  font-style: normal;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.2;
 }
 
 /* footer contacts */
 .footer-logo .title {
-  color: var(--axept-text-color);
+  color: var(--accent-text-color);
 }
 .footer-address {
   color: var(--third-text-color);
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
+  line-height: 1.7;
 }
 .footer-contacts {
   color: rgba(255, 255, 255, 0.6);
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
+  line-height: 1.7;
 }
 .footer-title {
   color: var(--third-text-color);
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
+  line-height: 1.14;
   text-transform: uppercase;
 }
 
 /* subscription */
 .button {
   color: var(--third-text-color);
-  background-color: var(--axept-text-color);
-  font-family: var(--primery-font-family);
-  font-style: normal;
+  background-color: var(--accent-text-color);
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.9;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
@@ -267,11 +233,9 @@ body {
 .footer-block .subscription {
   color: rgba(255, 255, 255, 0.6);
   border: 2px solid rgba(255, 255, 255, 0.3);
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
-  letter-spacing: 0.03em;
+  line-height: 1.9;
 }
 
 /* page down */
@@ -282,11 +246,7 @@ body {
 
 .contacts-down {
   color: rgba(255, 255, 255, 0.4);
-  font-style: normal;
   font-weight: 400;
   font-size: 12px;
-  line-height: 24px;
+  line-height: 2;
 }
-
-font-family: "Raleway", sans-serif;
-c
