@@ -207,6 +207,9 @@ body {
   font-size: 14px;
   line-height: 1.7;
 }
+.footer-contacts:hover {
+  color: var(--accent-text-color);
+}
 .footer-title {
   color: var(--third-text-color);
   font-weight: 700;
