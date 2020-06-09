@@ -14,7 +14,7 @@ a {
 }
 .primery-text-title {
   color: var(--secondary-text-color);
-  font-family: var(--primery-font-family);
+
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -88,11 +88,12 @@ body {
 /* advantages section */
 .second-section {
 }
+
 .advantages-title {
   color: var(--secondary-text-color);
   font-weight: 700;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   text-transform: uppercase;
 }
 
@@ -201,16 +202,16 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
+  font-style: normal;
 }
 .footer-contacts {
   color: rgba(255, 255, 255, 0.6);
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.7;
 }
+
 .footer-contacts:hover {
   color: var(--accent-text-color);
 }
+
 .footer-title {
   color: var(--third-text-color);
   font-weight: 700;
