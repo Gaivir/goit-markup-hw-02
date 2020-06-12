@@ -1,3 +1,8 @@
+html {
+  box-sizing: border-box;
+  margin: 0;
+}
+
 :root {
   --primery-text-color: #757575;
   --secondary-text-color: #212121;
@@ -14,7 +19,6 @@ a {
 }
 .primery-text-title {
   color: var(--secondary-text-color);
-
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -25,6 +29,7 @@ a {
 body {
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
+  max-width: 1600px;
 }
 
 /* header */
@@ -59,6 +64,7 @@ body {
 }
 
 /* conntacs */
+
 .contact-link {
   color: var(--primery-text-color);
   font-weight: 500;
